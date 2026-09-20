@@ -11,7 +11,6 @@
 body{
     background-color: #141310;
     color: #ece7dd;
-    font-family: br;
 }
 
 nav{
@@ -250,8 +249,6 @@ section{
 .experience-sub{
     margin-top: 50px;
     display: flex;
-    
-
 }
 
 .experience-sub > *{
@@ -500,4 +497,257 @@ section{
     font-family: "Hanken Grotesk", sans-serif;
     margin-bottom: 35px;
     color: #928c7e;
+}
+
+@media screen and (max-width:450px) {
+
+.nav-links{
+    display: none;
+}
+
+.header-h1{
+    font-size: 28px;
+}
+.wrap {
+    width: 100%;
+    padding: 0 22px;    
+    box-sizing: border-box;
+} 
+.header-sub{
+    font-size: 16px;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 42px;
+    margin-bottom: 35px;
+
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 13px 24px;
+    font-weight: 500;
+    font-family: "Hanken Grotesk", sans-serif;
+    border-radius: 10px;
+}
+
+.about-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: "Hanken Grotesk", sans-serif;
+    
+}
+
+.section-header h2{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 20px;
+}
+
+.section-header span{
+    font-family: "JetBrains Mono", monospace;
+    color: #e6a84b;
+    font-size: 12px;
+}
+
+.about-me{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    color: #928c7e;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.skills{
+
+    text-decoration: none;
+    color: #ece7dd;
+    padding: 10px 18px;
+    font-weight: 500;
+    font-family: "Hanken Grotesk", sans-serif;
+    border-radius: 10px;
+    border: 1px solid #2a2823;
+    border: 1px solid #2a2823;
+    text-align: center;
+    cursor: auto;
+    font-size: 14px;
+}
+.skils-head , .current-sub{
+    font-family: "JetBrains Mono", monospace;
+    color: #928c7e;
+    font-size: 14px;
+}
+
+.current-sub{
+    color: #e6a84b;
+}
+
+.chart-div > h3{
+    font-size: 14px;
+}
+
+.chart-div >a{
+    text-decoration: none;
+    color: #e6a84b;
+    font-size: 12px;
+}
+
+.experience-sub{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+
+}
+
+.work-detail-div > h2{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 18px;
+}
+.work-detail-div > p,ul{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.work-detail-div > p{
+    color: #e6a84b;
+    font-size: 12px;
+}
+.work-detail-div > ul{
+    padding: 0px 20px;
+    color: #928c7e;
+    font-size: 12px;
+}
+
+.experience-sub{
+    margin-top: 20px;
+    display: flex;
+}
+
+.project-row{
+    display: grid;
+    grid-template-columns: 56px 1fr auto;
+    gap: 12px;
+    padding: 15px 8px;
+    align-items: center;
+    transition: padding-left .3s ease;
+}
+
+.projects:hover .project-row{
+    padding-left: 24px;
+    background: linear-gradient(90deg , #8d5605 , transparent 60%);
+}
+
+.project-name{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 18px;
+}
+.project-sub{
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #928c7e;
+    font-size: 12px;
+}
+
+.project-detail-div{
+    display: flex;
+    padding-left: 15px;
+    gap: 50px;
+    
+}
+
+.detail-sub{
+    display: none;
+}
+
+.detail-main img{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    margin-left: 0;
+}
+.project-para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #928c7e;
+    font-size: 12px;
+    text-align: justify;
+}
+.tech-stack{
+    font-size: 14px;
+}
+.contact-para-div >p {
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #928c7e;
+    font-size: 12px;
+}
+.socail-div >a{
+    text-decoration: none;
+    color: #928c7e;
+    font-size: 14px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.contact-sub{
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.mail-div > a{
+    text-decoration: none;
+    color: #ece7dd;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 30px;
+    border-bottom: 2px solid #4e4334;
+}
+
+.footer-inner-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Hanken Grotesk", sans-serif;
+    margin-bottom: 35px;
+    color: #928c7e;
+}
+
+.projects-inner-div{
+    margin-bottom: 25px;
+}
+
+.experience-inner-div{
+    margin-bottom: 25px;
+}
+
+.github-chart{
+    margin-bottom: 25px;
+}
+
+.header{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+section{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #2a2823;
+}
+
+.hidden{
+    display: none;
+}
 }
