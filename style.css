@@ -501,6 +501,10 @@ section{
 
 @media screen and (max-width:450px) {
 
+      .nav-inner{
+    margin: 15px 0;
+}
+
 .nav-links{
     display: none;
 }
